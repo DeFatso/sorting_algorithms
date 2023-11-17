@@ -1,0 +1,1 @@
+This is the readme file for the project 0x1B. C - Sorting algorithms & Big O. This project introduces us to different sorting algorithms such as the insertion, selection, bubble, quick and merge sort. The bubble sort, insertion sort, selection sort and quick sort will be implemented in the mandatory part of the project
