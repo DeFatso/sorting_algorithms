@@ -26,7 +26,7 @@ int split(int arr[], int high, int low)
 
 	for (j = low; j < high; j++)
 	{
-		if (arr[j] > pivot)
+		if (arr[j] < pivot)
 		{
 			i++;
 			swap(&arr[i], &arr[j]);
