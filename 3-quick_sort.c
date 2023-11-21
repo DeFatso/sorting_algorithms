@@ -18,7 +18,7 @@ void swap(int *a, int *b)
  * @low: lowest index
  * Return: returns the partitioning index
  */
-int split(int arr[], int high, int low)
+int split(int arr[], int low, int high)
 {
 	int pivot = arr[high];
 	int i = low - 1;
@@ -47,7 +47,7 @@ void recursive_quick_sort(int *array, size_t size, int low, int high)
 {
 	if (low < high)
 	{
-		int partition_index = split(array, high, low);
+		int partition_index = split(array, low, high);
 
 		print_array(array, size);
 
