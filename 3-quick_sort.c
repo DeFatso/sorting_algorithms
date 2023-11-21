@@ -16,6 +16,7 @@ void swap(int *a, int *b)
  * @arr: array to partition
  * @high: highest index
  * @low: lowest index
+ * @size: array size
  * Return: returns the partitioning index
  */
 int split(int *arr, size_t size, int low, int high)
